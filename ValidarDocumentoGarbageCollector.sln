@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidarCpf", "ValidarCpf\ValidarCpf.csproj", "{B3C81BEF-809B-4131-A99D-DFEFE52ADACB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidarCnpj", "ValidarCnpj\ValidarCnpj.csproj", "{827AAF31-01C0-438F-9F31-E2A900C576EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3C81BEF-809B-4131-A99D-DFEFE52ADACB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3C81BEF-809B-4131-A99D-DFEFE52ADACB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3C81BEF-809B-4131-A99D-DFEFE52ADACB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3C81BEF-809B-4131-A99D-DFEFE52ADACB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827AAF31-01C0-438F-9F31-E2A900C576EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827AAF31-01C0-438F-9F31-E2A900C576EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827AAF31-01C0-438F-9F31-E2A900C576EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827AAF31-01C0-438F-9F31-E2A900C576EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FC1A35F-6D52-4472-B9F7-F53DED60E44E}
+	EndGlobalSection
+EndGlobal
