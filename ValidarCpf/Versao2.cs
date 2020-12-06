@@ -5,7 +5,7 @@ using System.Text;
 
 namespace ValidarCpf
 {
-    public static class Validador
+    public static class Versao2
     {
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static int ObterDigito(
