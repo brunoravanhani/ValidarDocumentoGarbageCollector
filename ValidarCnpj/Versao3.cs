@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ValidarCnpj
 {
-    public static class Validador
+    public static class Versao3
     {
         public struct Cnpj
         {
@@ -129,6 +129,5 @@ namespace ValidarCnpj
 
             return cnpj.ObterDigito(12) == dv1 && cnpj.ObterDigito(13) == dv2;
         }
-
     }
 }
