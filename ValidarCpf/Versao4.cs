@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace ValidarCpf
 {
-    public static class Validador
+    public static class Versao4
     {
         public struct Cpf
         {
