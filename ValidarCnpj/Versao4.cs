@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ValidarCnpj
 {
-    public static class Validador
+    public static class Versao4
     {
         public struct Cnpj
         {
@@ -92,6 +92,5 @@ namespace ValidarCnpj
 
         public static bool ValidarCNPJ(Cnpj cnpj)
             => cnpj.EhValido;
-
     }
 }
