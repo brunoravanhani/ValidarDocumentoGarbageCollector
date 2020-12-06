@@ -11,17 +11,16 @@ namespace ValidarCpf
             var before2 = GC.CollectionCount(2);
             var before1 = GC.CollectionCount(1);
             var before0 = GC.CollectionCount(0);
-            Func<string, bool> sut = Validador.ValidarCPF;
 
             sw.Start();
             for (int i = 0; i < 1_000_000; i++)
             {
-                if (!sut("771.189.500-33"))
+                if (!Validador.ValidarCPF("771.189.500-33"))
                 {
                     throw new Exception("Error!");
                 }
 
-                if (sut("771.189.500-34"))
+                if (Validador.ValidarCPF("771.189.500-34"))
                 {
                     throw new Exception("Error!");
                 }
