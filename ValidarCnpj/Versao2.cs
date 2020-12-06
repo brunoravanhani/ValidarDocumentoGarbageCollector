@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ValidarCnpj
 {
-    public static class Validador
+    public static class Versao2
     {
         static readonly int[] multiplicador1 = { 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
         static readonly int[] multiplicador2 = { 6, 5, 4, 3, 2, 9, 8, 7, 6, 5, 4, 3, 2 };
@@ -65,6 +65,5 @@ namespace ValidarCnpj
 
             return cnpj.EndsWith(digito);
         }
-        
     }
 }
